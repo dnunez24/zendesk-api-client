@@ -1,0 +1,23 @@
+{
+  "name": "zendesk-api-client",
+  "version": "0.0.1",
+  "description": "Simple, no-frills Node.js API client for Zendesk",
+  "main": "zendesk-api-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnunez24/zendesk-api-client.git"
+  },
+  "keywords": [
+    "zendesk",
+    "api"
+  ],
+  "author": "Dave Nunez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnunez24/zendesk-api-client/issues"
+  },
+  "homepage": "https://github.com/dnunez24/zendesk-api-client"
+}
