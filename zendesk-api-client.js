@@ -50,7 +50,7 @@ ZendeskApiClient.prototype.delete = function(path, callback) {
 }
 
 function buildAuthString(client) {
-  var = user, secret;
+  var user, secret;
 
   if (client.apiToken) {
     user = client.username + '/token';
