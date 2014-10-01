@@ -47,7 +47,7 @@ client.get('/api/v2/tickets.json?status=new', function(res, err) {
     tickets.forEach(function(ticket) {
       console.log(ticket.id, ticket.subject);
     });
-  })
+  });
 
   // handle errors in the response
   res.on('error', function(err) {
