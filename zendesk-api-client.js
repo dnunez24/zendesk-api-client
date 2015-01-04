@@ -14,7 +14,7 @@ ZendeskApiClient.prototype.get = function(path, callback) {
   });
 
   return sendRequest(options, callback);
-}
+};
 
 ZendeskApiClient.prototype.put = function(path, callback) {
   var options = buildRequestOptions(this, {
@@ -26,7 +26,7 @@ ZendeskApiClient.prototype.put = function(path, callback) {
   });
 
   return sendRequest(options, callback);
-}
+};
 
 ZendeskApiClient.prototype.post = function(path, callback) {
   var options = buildRequestOptions(this, {
@@ -38,7 +38,7 @@ ZendeskApiClient.prototype.post = function(path, callback) {
   });
 
   return sendRequest(options, callback);
-}
+};
 
 ZendeskApiClient.prototype.delete = function(path, callback) {
   var options = buildRequestOptions(this, {
@@ -47,7 +47,7 @@ ZendeskApiClient.prototype.delete = function(path, callback) {
   });
 
   return sendRequest(options, callback);
-}
+};
 
 function buildAuthString(client) {
   var user, secret;
